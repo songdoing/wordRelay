@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  name: "wordrelay-dev",
+  name: "wordrelay",
   mode: "development",
   devtool: "eval",
   resolve: {
@@ -9,7 +9,7 @@ module.exports = {
   },
 
   entry: {
-    app: ["./client"],
+    app: "./client",
   },
 
   module: {
