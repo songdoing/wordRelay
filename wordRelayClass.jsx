@@ -39,6 +39,8 @@ class WordRelay extends Component {
     render() {
         return (
             <>
+                <h1>Word Chain Game!!</h1>
+                <h3>Input a word.</h3>
                 <div>{this.state.word}</div>
                 <form onSubmit = {this.onSubmitForm}>
                     <input ref={this.onRefInput} value={this.state.value} onChange={this.onChangeInput} />
